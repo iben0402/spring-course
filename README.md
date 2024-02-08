@@ -6,7 +6,7 @@ Spring course containing also junit
 
 | Temat                                                         | ☑ | Folder |
 |--------------------------------------------------------------|---|--------|
-| An Introduction to the Junit Framework                       |   |        |
+| An Introduction to the Junit Framework                       |   |intro   |
 | Assertions & Assumptions in JUnit                            |   |        |
 | Advanced Annotations in Junit                                |   |        |
 | Parameterized Junit Tests                                    |   |        |
