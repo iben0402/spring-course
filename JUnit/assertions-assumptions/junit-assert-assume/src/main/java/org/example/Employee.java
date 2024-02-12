@@ -24,6 +24,17 @@ public class Employee {
         this.projects = projects;
     }
 
+    public Employee(String firstName, String lastName, Integer id, Character gender, String role, Double salary, String type) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.id = id;
+        this.gender = gender;
+        this.role = role;
+        this.salary = salary;
+        this.type = type;
+        this.projects = new ArrayList<>();
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -86,6 +97,10 @@ public class Employee {
 
     public void setProjects(ArrayList<String> projects) {
         this.projects = projects;
+    }
+
+    public void addProject(String project){
+        this.projects.add(project);
     }
 
     public void adjustSalary(double adjAmount) {
