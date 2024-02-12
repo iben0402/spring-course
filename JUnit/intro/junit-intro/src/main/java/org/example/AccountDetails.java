@@ -15,6 +15,20 @@ public class AccountDetails {
         this.accountType = accountType;
     }
 
+    public void deposit(double depositAmount) {
+        balance = balance + depositAmount;
+    }
+
+    public boolean withdraw(double withdrawAmount) {
+        if(withdrawAmount > balance) {
+            System.out.println("Insufficient Funds");
+            return false;
+        } else {
+            balance = balance -withdrawAmount;
+            return true;
+        }
+    }
+
     public String getName() {
         return name;
     }

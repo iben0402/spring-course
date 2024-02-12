@@ -14,3 +14,46 @@ An open-source unit testing framework for the Java programming language that gre
 - Its own console launcher to run tests and process the results
 - Integration with build-automation tools, such as Apache Maven and Gradle
 - Interfaces to process parameters, run tests concurrently, etc.
+
+## Example JUnit test
+```java
+@Test
+public void validateBalance() {
+    assertTrue(accountDetails.getBalance() >= 0);
+}
+```
+**assertTrue** - method provided by JUnit. This method is used to check whether a certain condition is true. If it is, the test passes. If it's not, the test fails.
+
+**@Test** - this annotation indicates that the method below should be treated as a test case.
+
+## BeforeEach and AfterEach annotations
+- **@BeforeEach** - This annotation is used to specify that the method should be executed before each test in the current test class. It's typically used for setup routines that are needed for every test.
+```java
+@BeforeEach
+public void setup() {
+    // setup code here
+}
+```
+- **@AfterEach** - This annotation is used to specify that the method should be executed after each test in the current test class. It's typically used for cleanup routines that are needed after every test.
+```java
+@AfterEach
+public void cleanup() {
+    // cleanup code here
+}
+```
+
+## BeforeAll and AfterAll annotations
+- **@BeforeAll** - This annotation is used to specify that the method should be executed once before all tests in the current test class. It's typically used for setup routines that are needed only once, not before each test.
+```java
+@BeforeAll
+public static void setupAll() {
+    // setup code here
+}
+```
+- **@AfterAll** - This annotation is used to specify that the method should be executed once after all tests in the current test class have been run. It's typically used for cleanup routines that are needed only once, not after each test.
+```java
+@AfterAll
+public static void cleanupAll() {
+    // cleanup code here
+}
+```
