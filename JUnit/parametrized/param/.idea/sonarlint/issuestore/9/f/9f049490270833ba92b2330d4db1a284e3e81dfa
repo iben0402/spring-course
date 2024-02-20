@@ -1,0 +1,10 @@
+
+b	java:S112r"FDefine and throw a dedicated exception instead of using a generic one.(Ú‚Ñì8ùªãÜ1
+Š
+java:S1319"hThe type of "projects" should be an interface such as "List" rather than the implementation "ArrayList".(”å¡óúÿÿÿÿ8ùªãÜ1
+
+java:S1319^"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(…²ƒÍ8ùªãÜ1
+Š
+java:S1319b"hThe type of "projects" should be an interface such as "List" rather than the implementation "ArrayList".(­üøŠşÿÿÿÿ8ùªãÜ1
+b	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(”å¡óúÿÿÿÿ8şªãÜ1
+U	java:S106l"9Replace this use of System.out or System.err by a logger.(ğØ·8€«ãÜ1

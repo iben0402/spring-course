@@ -9,7 +9,7 @@ Spring course containing also junit
 | An Introduction to the Junit Framework                       | ☑ |intro   |[notes](JUnit/intro/notes.md)|
 | Assertions & Assumptions in JUnit                            | ☑ |assertions-assumptions|[notes](JUnit/assertions-assumptions/notes.md)|
 | Advanced Annotations in Junit                                | ☑ |advanced-annotations|[notes](JUnit/advanced-annotations/notes.md)|
-| Parameterized Junit Tests                                    |   |        |        |
+| Parameterized Junit Tests                                    | ☑ |parametrized|[notes](JUnit/parametrized/notes.md)|
 | Executing Junit Tests                                        |   |        |        |
 | Unit testing with Mocks: Mockito                             |   |        |        |
 | Unit testing with Mocks: Creating Mocks & Verifying Behavior |   |        |        |
